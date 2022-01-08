@@ -1,0 +1,3 @@
+#!/bin/bash
+docker build -t fravega .
+docker run --shm-size=2g -v $PWD/:/source pepe
